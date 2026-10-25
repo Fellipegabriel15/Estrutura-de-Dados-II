@@ -54,12 +54,12 @@ Considere:
 ### Faça
 
 1.  Desenhe o grafo.
-2.  Identifique o número de vértices.
-3.  Identifique o número de arestas.
-4.  Determine a ordem `|V|`.
-5.  Determine o tamanho `|E|`.
-6.  Identifique se existe laço.
-7.  Determine o grau de cada vértice.
+2.  Identifique o número de vértices. 5
+3.  Identifique o número de arestas. 6
+4.  Determine a ordem `|V|`. 5
+5.  Determine o tamanho `|E|`. 6
+6.  Identifique se existe laço. há um laço no 4
+7.  Determine o grau de cada vértice. vértice1 = 3, vértice2=2, vértice3 = 2, vértice4 = 4 vértice5 = 1
 
 > **Atenção:** a aresta `(4,4)` é um laço. No cálculo do grau, um laço é
 > contado duas vezes.
@@ -80,21 +80,21 @@ Utilize o grafo construído na Atividade 1.
 
 ### Faça
 
-1.  Liste os vértices adjacentes a cada vértice.
-2.  Informe quais arestas são incidentes em cada vértice.
+1.  Liste os vértices adjacentes a cada vértice. 
+2.  Informe quais arestas são incidentes em cada vértice. 
 3.  Escolha dois vértices adjacentes e explique por que são considerados
-    vizinhos.
-4.  Escolha dois vértices não adjacentes e justifique sua resposta.
+    vizinhos. Os vértices 1 e 2, por exemplo, são considerados vizinhos porque estão ligados diretamente por uma aresta
+4.  Escolha dois vértices não adjacentes e justifique sua resposta.3 e 1. pois não há uma aresta que ligue diretamente um ao outro
 
 ### Registro
 
   Vértice   Vértices adjacentes   Arestas incidentes
   --------- --------------------- --------------------
-  1                               
-  2                               
-  3                               
-  4                               
-  5                               
+  1              2, 4, 5            (1, 2) (1, 4) (1, 5)        
+  2              1, 3               (2, 3) (2, 1)
+  3              2, 4.              (3, 2) (3, 4)
+  4              4, 1, 3            (4, 1) (4, 3) (4, 4)
+  5              1                  (5, 1)
 
 ### Plataformas
 
