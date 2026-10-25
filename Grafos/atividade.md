@@ -129,16 +129,16 @@ Crie uma pequena rede de amizades entre essas pessoas.
 
 ### Faça
 
-1.  Defina o conjunto de vértices `V`.
-2.  Defina o conjunto de arestas `E`.
+1.  Defina o conjunto de vértices `V`.4
+2.  Defina o conjunto de arestas `E`.4
 3.  Desenhe o grafo correspondente.
-4.  Informe se o grafo deve ser dirigido ou não dirigido.
-5.  Justifique a escolha.
-6.  Identifique quem possui maior grau no grafo criado.
+4.  Informe se o grafo deve ser dirigido ou não dirigido. Não dirigido
+5.  Justifique a escolha. A amizade é uma via de mão dupla, então a relação entre eles deve ser mutua
+6.  Identifique quem possui maior grau no grafo criado. João
 
 ### Questão para reflexão
 
-**O que os vértices e as arestas representam nesse problema?**
+**O que os vértices e as arestas representam nesse problema?** Os vértices representam as pessoas e as arestas representam as relações delas
 
 ### Plataformas
 
@@ -163,11 +163,11 @@ mão única.
 2.  Represente cada rua por uma aresta dirigida.
 3.  Utilize setas para indicar o sentido permitido.
 4.  Defina os conjuntos `V` e `E`.
-5.  Escolha um vértice e determine:
-    -   seu grau de entrada;
-    -   seu grau de saída.
+5.  Escolha um vértice e determine: "E"
+    -   seu grau de entrada 1;
+    -   seu grau de saída 2.
 6.  Explique por que um grafo não dirigido não representa adequadamente
-    essa situação.
+    essa situação. já que o grafo representa vias de mão única, é importante destacar a direção permitida para cada via.
 
 ### Plataformas
 
@@ -184,13 +184,13 @@ A professora apresentará dois grafos para comparação.
 
 ### Faça
 
-1.  Compare a quantidade de vértices.
-2.  Compare a quantidade de arestas.
-3.  Observe os graus dos vértices.
-4.  Procure uma correspondência entre os vértices dos dois grafos.
+1.  Compare a quantidade de vértices. Os dois possuem 4.
+2.  Compare a quantidade de arestas. 4 para os dois grafos.
+3.  Observe os graus dos vértices. Todos possuem grau 2
+4.  Procure uma correspondência entre os vértices dos dois grafos. 1= a, 2=c, 3=b, 4=d
 5.  Verifique se as adjacências são preservadas.
 6.  Registre o mapeamento encontrado.
-7.  Conclua, justificadamente, se os grafos são isomorfos.
+7.  Conclua, justificadamente, se os grafos são isomorfos. Os grafos são isomorfos. Ambos possuem a mesma estrutura de conexões preservando a quantidade de vértices, arestas e grau dos vértices, mudado apenas onome dos vértices.
 
 ### Registro sugerido
 
@@ -228,15 +228,15 @@ subgrafos diferentes**.
 
 **Subgrafo G1**
 
-`V1 = { }`
+`V1 = {1,2}`
 
-`E1 = { }`
+`E1 = { (1,2)}`
 
 **Subgrafo G2**
 
-`V2 = { }`
+`V2 = { 3,4}`
 
-`E2 = { }`
+`E2 = {(3,4) }`
 
 ### Plataformas
 
@@ -265,12 +265,24 @@ indicada pela professora.
 
   Vértice     Grau
   --------- ------
-            
+   a          1
+   b          1
+   c          2
+   d          3
+   e          3
+   f          4
+   g          4
+   h          6
+   
             
             
             
 
-**Sequência final de graus:** `( ______________________________ )`
+**Sequência final de graus:** `( 1,1,2,3,3,4,4,6 )`
+
+GRAFO
+<img width="702" height="632" alt="image" src="https://github.com/user-attachments/assets/36ffe7ee-898f-445b-9ac3-70bca0223df6" />
+
 
 ### Plataformas
 
