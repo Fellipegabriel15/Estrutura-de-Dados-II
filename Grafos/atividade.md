@@ -64,6 +64,15 @@ Considere:
 > **Atenção:** a aresta `(4,4)` é um laço. No cálculo do grau, um laço é
 > contado duas vezes.
 
+
+GRAFO
+
+
+
+
+<img width="412" height="262" alt="image" src="https://github.com/user-attachments/assets/d6136298-eea7-4834-b870-dcaca0c56a43" />
+
+
 ### Plataformas
 
 -   papel e lápis;
@@ -140,6 +149,14 @@ Crie uma pequena rede de amizades entre essas pessoas.
 
 **O que os vértices e as arestas representam nesse problema?** Os vértices representam as pessoas e as arestas representam as relações delas
 
+
+GRAFO
+
+
+
+<img width="262" height="372" alt="image" src="https://github.com/user-attachments/assets/4481afbf-890c-420c-a28d-df11a5924f67" />
+
+
 ### Plataformas
 
 -   diagrams.net;
@@ -168,6 +185,13 @@ mão única.
     -   seu grau de saída 2.
 6.  Explique por que um grafo não dirigido não representa adequadamente
     essa situação. já que o grafo representa vias de mão única, é importante destacar a direção permitida para cada via.
+
+    GRAFO
+
+
+
+    <img width="382" height="322" alt="image" src="https://github.com/user-attachments/assets/9e393664-2724-4419-8ac1-88004684b63e" />
+
 
 ### Plataformas
 
@@ -265,14 +289,14 @@ indicada pela professora.
 
   Vértice     Grau
   --------- ------
-   a          1
-   b          1
-   c          2
-   d          3
-   e          3
-   f          4
-   g          4
-   h          6
+   a =1
+   b =1
+   c =2
+   d = 3
+   e =3
+   f = 4
+   g = 4
+   h =6
    
             
             
@@ -281,6 +305,9 @@ indicada pela professora.
 **Sequência final de graus:** `( 1,1,2,3,3,4,4,6 )`
 
 GRAFO
+
+
+
 <img width="702" height="632" alt="image" src="https://github.com/user-attachments/assets/36ffe7ee-898f-445b-9ac3-70bca0223df6" />
 
 
