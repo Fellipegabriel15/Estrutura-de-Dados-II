@@ -96,6 +96,7 @@ Utilize o grafo construído na Atividade 1.
   4 = 4, 1, 3            
   5  = 1                  
   Arestas incidentes
+  
   1 = (1, 2) (1, 4) (1, 5)
   2 = (2, 3) (2, 1)
   3 = (3, 2) (3, 4)
