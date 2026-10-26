@@ -262,6 +262,15 @@ subgrafos diferentes**.
 
 `E2 = {(3,4) }`
 
+
+GRAFO
+
+<img width="972" height="355" alt="image" src="https://github.com/user-attachments/assets/445cbf90-2e5b-4bbf-9232-ce96e732023b" />
+
+
+
+
+
 ### Plataformas
 
 -   Graph Online;
